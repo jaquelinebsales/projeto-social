@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vw;
+    background-repeat: no-repeat;
+}
+
+#conteudo{
+    background-image: url('../imagens/frame-iphone.png');
+    width: 311px;
+    height: 627px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.home-logo, .facebook-logo, .github-logo, .instagram-logo, .twitter-logo, .youtube-logo{
+    border-radius: 50%;
+    width: 50px;
+
+}
